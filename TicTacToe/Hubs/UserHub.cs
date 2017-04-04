@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNet.SignalR;
 using TicTacToe.Models;
 
-namespace TicTacToe.Controllers.Api
+namespace TicTacToe.Hubs
 {
     public class UserHub : Hub
     {

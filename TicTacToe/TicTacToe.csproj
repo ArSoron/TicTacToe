@@ -113,13 +113,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
-    <Compile Include="Controllers\api\GameHub.cs" />
-    <Compile Include="Controllers\api\ChatHub.cs" />
+    <Compile Include="Hubs\ChatHub.cs" />
+    <Compile Include="Hubs\GameHub.cs" />
+    <Compile Include="Hubs\UserHub.cs" />
     <Compile Include="Models\IGameStore.cs" />
     <Compile Include="Models\IGame.cs" />
     <Compile Include="Models\IPosition.cs" />
     <Compile Include="Models\IUserStore.cs" />
-    <Compile Include="Controllers\api\UserHub.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>

@@ -2,6 +2,7 @@
 using System;
 using System.Collections;
 using System.ComponentModel.DataAnnotations;
+using TicTacToe.Hubs;
 
 namespace TicTacToe.Models {
     public class GameStore : IGameStore
