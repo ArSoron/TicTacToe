@@ -1,1 +1,1 @@
-﻿<%@ Application Language="C#" CodeBehind="Global.asax.cs" Inherits="TicTacToe.Global" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="TicTacToe.WebApiApplication" Language="C#" %>
